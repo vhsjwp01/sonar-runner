@@ -33,8 +33,6 @@ URL: %{sonar_runner_version_url}
 
 # These Requires can be found in Base
 Requires: curl  >= 0
-Requires: gzip  >= 0
-Requires: tar   >= 0
 Requires: unzip >= 0
 
 %define install_dir /usr/local
