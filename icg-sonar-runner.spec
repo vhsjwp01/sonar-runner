@@ -8,7 +8,7 @@
 %define distro_major_ver %( echo "%{distro_ver}" | awk -F'.' '{print $1}' )
 %define source_url http://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist
 
-Summary: The SonarQube platform is an open source quality management platform
+Summary: The program sonar-runner is used to perform quality assurance checks on code against a SonarQube server
 Name: icg-sonar-runner
 Release: 1.EL%{distro_major_ver}
 License: GNU
