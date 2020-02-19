@@ -2,14 +2,14 @@
 %define uek %( uname -r | egrep -i uek | wc -l | awk '{print $1}' )
 %define rpm_arch %( uname -p )
 %define rpm_author Jason W. Plummer
-%define rpm_author_email jason.plummer@ingramcontent.com
+%define rpm_author_email vhsjwp01@gmail.com
 %define distro_id %( lsb_release -is )
 %define distro_ver %( lsb_release -rs )
 %define distro_major_ver %( echo "%{distro_ver}" | awk -F'.' '{print $1}' )
 %define source_url http://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist
 
 Summary: The program sonar-runner is used to perform quality assurance checks on code against a SonarQube server
-Name: icg-sonar-runner
+Name: sonar-runner
 Release: 1.EL%{distro_major_ver}
 License: GNU
 Group: Development/Compiler
